@@ -14,7 +14,7 @@ const SearchBar = (props) => {
         </div>
       </div>
 
-      <div className={styles.bodySearchBar}>
+      <div className={styles.bodySearchBar }>
         <img className={styles.iconSearchBar} src ="https://openweathermap.org/img/wn/10d@2x.png" alt="" ></img>
         <h1>12* C</h1>
         <p>
