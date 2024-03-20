@@ -1,0 +1,44 @@
+.containerSearchBar {
+  display: flex;
+  width: 450px;
+}
+
+.headerSearchBar {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  padding: 5px;
+}
+
+.buttonSearchBar {
+  background-image: url(/src/assets/search-icon.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: none;
+  margin-left: 20px;
+}
+.bodySearchBar {
+  display: block;
+}
+.SearchBar {
+  height: 30px;
+  width: 250px;
+  border: none;
+  margin: 20px;
+  font-size: 15px;
+  color: black;
+}
+
+.SearchBar:focus {
+  outline: none;
+  border: none;
+}
+
+.iconSearchBar {
+  background-image: url("https://openweathermap.org/img/wn/10d@2x.png");
+}
