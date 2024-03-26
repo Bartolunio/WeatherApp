@@ -11,6 +11,7 @@ const SearchBar = () => {
             type="text"
             placeholder="Search for places..."
           ></input>
+          <div className={styles.locationIcon}></div>
         </div>
       </div>
 
@@ -18,7 +19,6 @@ const SearchBar = () => {
         <img
           className={styles.iconSearchBar}
           src="https://openweathermap.org/img/wn/11d@4x.png"
-          alt=""
         ></img>
         <h1 className={styles.celcius}>12°C</h1>
         <p className={styles.dayAndTime}>
@@ -28,16 +28,16 @@ const SearchBar = () => {
 
       <div className={styles.fotterSearchBar}>
         <div className={styles.weather}>
-          <img src="https://openweathermap.org/img/wn/03d@2x.png" alt=""></img>
+          <img src="https://openweathermap.org/img/wn/03d@2x.png"></img>
           <p>Mostly Cloudy</p>
         </div>
         <div className={styles.weather}>
-          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""></img>
+          <img src="https://openweathermap.org/img/wn/10d@2x.png"></img>
           <p>Rain -30%</p>
         </div>
       </div>
       <div className={styles.containerCity}>
-        <img className={styles.cityBacground} alt=""></img>
+        <h1 className={styles.cityBacground}><p>New York, NY, USA</p></h1>
       </div>
     </div>
   );
